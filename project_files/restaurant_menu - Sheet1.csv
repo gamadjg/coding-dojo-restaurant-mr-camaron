@@ -1,0 +1,92 @@
+name,course,category_main,category_menu,type,primary_ingredient,price_reg,price_lg
+ceviche pirata,main,seafood,para_leventar_el_animo,ceviche,mixed,27.99,0
+camarones ahogados verdes,main,seafood,para_leventar_el_animo,dish,shrimp,23.99,36.00
+chicharrones de pescado,appetizer,seafood,para_leventar_el_animo,dish,fish,18.99,0
+aguachile,main,seafood,para_leventar_el_animo,dish,shrimp,18.99,0
+empanadas de camaron,appetizer,seafood,para_leventar_el_animo,empanada,shrimp,18.50,0
+tostadas de ceviche de camaron,main,seafood,para_leventar_el_animo,tostada,shrimp,7.00,0
+tostadas marisco mixto,main,seafood,para_leventar_el_animo,tostada,mixed,10.99,0
+taco culiacan,main,mexican,para_leventar_el_animo,taco,all,7.00,0
+taco gobernador,main,mexican,para_leventar_el_animo,taco,all,6.50,0
+aguachile estilo sinaloa,special,seafood,para_leventar_el_animo,dish,shrimp,7.00,0
+tostada de aguachile,main,seafood,para_leventar_el_animo,tostada,shrimp,15.00,0
+ostiones preparados,special,seafood,para_leventar_el_animo,dish,oyster,31.00,0
+tostadas de callo,main,seafood,para_leventar_el_animo,tostada,clam,12.00,0
+ostiones en su concha,special,seafood,para_leventar_el_animo,dish,oyster,17.00,22.50
+tostadas de camaron de callo,main,seafood,para_leventar_el_animo,tostada,shrimp,10.99,0
+botana de fruta,appetizer,side,para_leventar_el_animo,side,mixed,12.00,0
+taco de camaron,main,seafood,para_leventar_el_animo,taco,shrimp,6.00,0
+taco de pescado,main,seafood,para_leventar_el_animo,taco,fish,6.50,0
+tore de mariscos,appetizer,seafood,botanas_de_mariscos,dish,mixed,29.99,0
+camarones al vapor,appetizer,seafood,botanas_de_mariscos,dish,shrimp,25.99,0
+camarones en salsa de mango,appetizer,seafood,botanas_de_mariscos,dish,shrimp,21.99,0
+camarones cucaracha,appetizer,seafood,botanas_de_mariscos,dish,shrimp,26.99,0
+mejillones,apetizer,seafood,botanas_de_mariscos,dish,oyster,19.50,0
+camarones sarandeados,apetizer,seafood,botanas_de_mariscos,dish,shrimp,26.99,0
+botana mr.camaron,special,seafood,botanas_de_mariscos,dish,mixed,185.00,0
+botana mixta,special,seafood,botanas_de_mariscos,dish,mixed,65.99,0
+camarones costenos,apetizer,seafood,botanas_de_mariscos,dish,shrimp,19.50,0
+botana sinaloa,special,seafood,botanas_de_mariscos,dish,mixed,47.50,0
+botana estilo aticama,special,seafood,botanas_de_mariscos,dish,mixed,82.50,0
+orden de ceviche de camaron,special,seafood,botanas_de_mariscos,ceviche,shrimp,22.50,0
+orden de ceviche de pescado,special,seafood,botanas_de_mariscos,ceviche,mixed,22.50,0
+aguacate relleno,appetizer,seafood,botanas_de_mariscos,side,guacamole,19.50,0
+siete mares,main,seafood,caldos_soup,soup,mixed,29.99,0
+coctel de camaron,main,seafood,caldos_soup,soup,shrimp,19.50,23.50
+cazuelita vitaminica,main,seafood,caldos_soup,soup,mixed,29.99,0
+campechana,main,seafood,caldos_soup,soup,mixed,21.50,25.50
+caldo de camaron,main,seafood,caldos_soup,soup,shrimp,21.99,0
+coctel de camaron y pulpo,main,seafood,caldos_soup,soup,mixed,20.50,0
+"cielo, mar, y tierra",special,seafood,especialidades_de_la_casa,grilled,mixed,36.50,0
+langostinos,special,seafood,especialidades_de_la_casa,grilled,lobster,26.50,0
+molcajete de mariscos,special,seafood,especialidades_de_la_casa,dish,mixed,35.99,0
+molcajete mixto,special,seafood,especialidades_de_la_casa,dish,mixed,33.99,0
+camarones y carne,main,seafood,especialidades_de_la_casa,dish,shrimp,26.50,0
+pescado sarandeado,special,seafood,especialidades_de_la_casa,dish,fish,26.50,0
+mariscada,special,seafood,especialidades_de_la_casa,dish,mixed,38.00,0
+parilla combinada,special,seafood,especialidades_de_la_casa,dish,mixed,195.00,0
+camarones cachanilla,main,seafood,especialidades_de_la_casa,dish,shrimp,19.50,0
+camarones a la diabla,main,seafood,especialidades_de_la_casa,dish,shrimp,19.50,0
+camarones empanizados,main,seafood,platillos_de_mariscos,dish,shrimp,19.90,0
+mojarra frita,main,seafood,platillos_de_mariscos,dish,fish,19.99,0
+camarones al mojo de ajo,main,seafood,platillos_de_mariscos,dish,shrimp,21.99,0
+camarones y pulpo a la veracruzana,main,seafood,platillos_de_mariscos,dish,shrimp,22.99,0
+camarones culichi,main,seafood,platillos_de_mariscos,dish,shrimp,19.99,0
+huachinango al mojo de ajo,main,seafood,platillos_de_mariscos,dish,fish,22.50,0
+mojarra combinada a la diabla,main,seafood,platillos_de_mariscos,dish,fish,24.99,0
+camarones al coco,main,seafood,platillos_de_mariscos,dish,shrimp,19.99,0
+filete relleno,main,seafood,platillos_de_mariscos,dish,fish,26.50,0
+salmon,main,seafood,platillos_de_mariscos,dish,fish,18.00,0
+fajitas mixtas,main,mexican,platillos_mexicanos,dish,mixed,26.99,0
+carne asada,main,mexican,platillos_mexicanos,dish,meat,20.50,0
+chile relleno,main,mexican,platillos_mexicanos,dish,regular,16.00,0
+menudo,main,mexican,platillos_mexicanos,dish,meat,15.50,0
+tampiquenoa,main,mexican,platillos_mexicanos,dish,meat,34.50,0
+pollo a la plancha,main,mexican,platillos_mexicanos,dish,chicken,17.50,0
+birria de res,main,mexican,platillos_mexicanos,dish,meat,15.50,0
+birria de chivo,main,mexican,platillos_mexicanos,dish,meat,15.50,0
+quesabirria,main,mexican,platillos_mexicanos,dish,meat,5.00,0
+machaca,main,side,platillos_mexicanos,vegetables,vegetables,15.50,0
+tacos,main,mexican,platillos_mexicanos,taco,all,4.00,0
+pollo ranchero,main,mexican,platillos_mexicanos,dish,chicken,18.50,0
+pollo en salsa verde,main,mexican,platillos_mexicanos,dish,chicken,18.50,0
+aporreadillo,main,mexican,platillos_mexicanos,dish,meat,18.50,0
+enchiladas michoacanas,main,mexican,platillos_mexicanos,dish,meat,19.00,0
+quesadilla con carne,main,mexican,platillos_mexicanos,dish,meat,11.50,0
+burrito mojado regular,main,mexican,platillos_mexicanos,burrito,all,11.50,0
+burrito mojado super,main,mexican,platillos_mexicanos,burrito,all,14.50,0
+burrito sinaloa con camaron,main,mexican,platillos_mexicanos,burrito,shrimp,19.50,0
+taco supreme,main,mexican,platillos_mexicanos,taco,all,5.00,0
+taco de pollo,main,mexican,platillos_mexicanos,taco,chicken,4.00,0
+tostadas,side,side,sides_extras,tostada,side,4.00,0
+sopes,side,side,sides_extras,sope,side,6.00,0
+arroz,side,side,sides_extras,side,side,2.50,0
+frijoles,side,side,sides_extras,side,side,2.50,0
+aguacate relleno,side,side,sides_extras,side,side,3.00,0
+crema,side,side,sides_extras,side,side,1.50,0
+mayonesa,side,side,sides_extras,side,side,1.50,0
+guacamole pequeno,side,side,sides_extras,side,side,4.50,0
+guacamole grande,side,side,sides_extras,side,side,6.50,0
+papas a la francesa,side,side,sides_extras,side,side,5.00,0
+order de pan a la mantequilla,side,side,sides_extras,side,side,3.00,0
+order de tortillas,side,side,sides_extras,side,side,2.00,0

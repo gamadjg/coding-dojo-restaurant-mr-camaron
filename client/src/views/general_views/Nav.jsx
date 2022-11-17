@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import restaurant_title from "../../assets/restaurant_name.png";
+
 const Nav = () => {
 	return (
 		<div id="nav_main">
-			<h1 id="nav_title">Mr.Camaron</h1>
+			<img src={restaurant_title} alt="Mr.Camaron" />
 			<ul id="nav_list">
 				<li>
 					<Link to="/">Home</Link>
