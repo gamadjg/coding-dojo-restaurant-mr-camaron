@@ -1,37 +1,31 @@
-import ManagePlayers from "./views/ManagePlayers";
-// import PlayerNew from "./views/PlayerNew";
-import PlayerStatus from "./views/PlayerStatus";
-// import PlayerEdit from "./views/PlayerEdit";
-import "./assets/App.css";
+import React, { Fragment } from "react";
 import "./assets/style.css";
-import { useEffect } from "react";
-import { useNavigate } from "react-router";
-import { Routes, Route, Link } from "react-router-dom";
-
+import { Routes, Route } from "react-router-dom";
+import Landing from "./views/landing_page/Landing";
+import Menu from "./views/other_pages/Menu";
+import Contact from "./views/other_pages/Contact";
+import About from "./views/other_pages/About";
+import ScrollButton from "./components/ScrollButton";
+import Nav from "./views/general_views/Nav";
+import Footer from "./views/general_views/Footer";
 function App() {
-	const Landing = () => {
-		const navigate = useNavigate();
-
-		useEffect(() => {
-			navigate("/players/list");
-		});
-	};
-
 	return (
 		<div className="App">
-			<h1>Favorite Players</h1>
-			<div>
-				<Link to={"/players/list"}>Manager Players</Link>
-				<div>|</div>
-				<Link to={"/status/game/1"}>Manager Player Status</Link>
-			</div>
-			<Routes>
-				<Route path="/" element={<Landing />} />
-				<Route path="/players/list" element={<ManagePlayers />} />
-				<Route path="/status/game/:game_id" element={<PlayerStatus />} />
-				{/* <Route path="/players/addplayer" element={<PlayerNew />} /> */}
-				{/* <Route path="/edit/:id/" element={<PlayerEdit />} /> */}
-			</Routes>
+			<Fragment>
+				<div id="landing_nav">
+					<Nav />
+				</div>
+				<div id="landing_body">
+					<Routes>
+						<Route path="/" element={<Landing />} />
+						<Route path="/menu" element={<Menu />} />
+						<Route path="/contact" element={<Contact />} />
+						<Route path="/about" element={<About />} />
+					</Routes>
+				</div>
+				<ScrollButton />
+				<Footer />
+			</Fragment>
 		</div>
 	);
 }
