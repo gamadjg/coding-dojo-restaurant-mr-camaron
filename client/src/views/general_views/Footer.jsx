@@ -6,18 +6,23 @@ import fb_logo3 from "../../assets/fb_logo3.png";
 const Footer = () => {
 	return (
 		<div id="footer_main">
-			<div id="footer_left">Created by: David Gama @ VariusIT</div>
+			{/* Created by: David Gama @ VariusIT */}
+			<div id="footer_left"></div>
 			<div id="footer_mid">
-				<img
-					className="media_logo"
-					src={fb_logo3}
-					alt="Facebook redirect icon"
-				></img>
-				<img
-					className="media_logo"
-					src={ig_logo}
-					alt="Instragram redirect icon"
-				></img>
+				<a href="https://www.facebook.com/mariscosmrcamaronmodesto">
+					<img
+						className="media_logo"
+						src={fb_logo3}
+						alt="Facebook redirect icon"
+					></img>
+				</a>
+				<a href="https://www.instagram.com/mariscosmr.camaron/">
+					<img
+						className="media_logo"
+						src={ig_logo}
+						alt="Instragram redirect icon"
+					></img>
+				</a>
 			</div>
 			<div id="footer_left">
 				<button>Signup for Notifications</button>
