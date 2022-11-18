@@ -12,7 +12,8 @@
 	flex-direction: column;
 }
 
-#landing_nav {
+/* ---------------------------------------- NAV CONTAINER ---------------------------------------- */
+#nav {
 	width: 100vw;
 	/* background-color: #076b93; */
 	background-color: #a6d2e4;
@@ -46,6 +47,12 @@
 	left: 10vw;
 }
 
+.nav_button {
+	color: black;
+	font-size: x-large;
+}
+
+/* ---------------------------------------- MAIN CONTAINER ---------------------------------------- */
 .landing_container {
 	background-color: #a6d2e4;
 	height: 1000px;
@@ -58,20 +65,20 @@
 }
 
 #menu_main {
-	background-color: salmon;
+	background-color: #a6d2e4;
 	/* height: 1000px; */
 	padding: 100px 50px 50px 50px;
 }
 
 #about_main {
-	background-color: bisque;
+	background-color: #a6d2e4;
 	height: 1000px;
 	padding: 100px 50px 50px 50px;
 	/* padding-top: 50px; */
 }
 
 #contact_main {
-	background-color: coral;
+	background-color: #a6d2e4;
 	height: 100%;
 	padding: 100px 50px 50px 50px;
 
@@ -103,21 +110,6 @@ button {
 	bottom: 0px;
 }
 
-#footer_main {
-	background-color: #076b93;
-	/* height: 70px; */
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-#footer_mid {
-	display: flex;
-
-	justify-content: center;
-	align-items: center;
-}
-
 a,
 a:visited,
 a:active {
@@ -131,14 +123,40 @@ a:active {
 	padding: 12px;
 }
 
-.nav_button {
-	color: black;
-	font-size: x-large;
-}
-
 .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 #main_logo {
 	width: 500px;
+}
+
+#main_welcome_logo {
+	width: 300px;
+}
+
+.menu_logo {
+	width: 500px;
+}
+
+.menu_secondary_logo {
+	width: 120px;
+}
+
+#footer_main {
+	background-color: #076b93;
+	/* height: 70px; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#footer_mid {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
 }

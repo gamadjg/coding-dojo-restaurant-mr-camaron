@@ -4,7 +4,7 @@ import FormContact from "../../components/FormContact";
 
 const Contact = () => {
 	return (
-		<div id="contact_main">
+		<div id="contact_main" className="container">
 			<FormContact />
 		</div>
 	);

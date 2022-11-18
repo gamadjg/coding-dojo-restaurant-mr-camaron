@@ -71,7 +71,7 @@ function App() {
 	return (
 		<div className="App">
 			<Fragment>
-				<div id="landing_nav">
+				<div id="nav">
 					<Nav />
 				</div>
 				<div id="landing_body">

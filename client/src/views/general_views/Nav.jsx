@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import restaurant_title from "../../assets/restaurant_name.png";
-import logo from "../../assets/edited_logo_3.png";
+// import restaurant_title from "../../assets/restaurant_name.png";
+// import logo from "../../assets/edited_logo_3.png";
 
 const Nav = () => {
 	return (
 		<>
-			<img src={logo} alt="Mr.Camaron" id="nav_logo" />
+			{/* <img src={logo} alt="Mr.Camaron" id="nav_logo" /> */}
 			<div id="nav_main">
 				{/* <img src={restaurant_title} alt="Mr.Camaron" /> */}
 				<ul id="nav_list">
