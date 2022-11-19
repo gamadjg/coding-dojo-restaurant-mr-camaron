@@ -2,12 +2,17 @@ import React from "react";
 import "../../assets/style.css";
 import ig_logo from "../../assets/Instagram_Glyph_Black.png";
 import fb_logo3 from "../../assets/fb_logo3.png";
+import menu from "../../assets/menu.pdf";
 
 const Footer = () => {
 	return (
 		<div id="footer_main">
 			{/* Created by: David Gama @ VariusIT */}
-			<div id="footer_left"></div>
+			<div id="footer_left">
+				<a download="menu.pdf" href={menu}>
+					Download the menu
+				</a>
+			</div>
 			<div id="footer_mid">
 				<a href="https://www.facebook.com/mariscosmrcamaronmodesto">
 					<img

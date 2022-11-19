@@ -18,8 +18,6 @@ const ScrollButton = () => {
 		window.scrollTo({
 			top: 0,
 			behavior: "smooth",
-			/* you can also use 'auto' behaviour
-		in place of 'smooth' */
 		});
 	};
 
@@ -29,7 +27,7 @@ const ScrollButton = () => {
 		<Button>
 			<FaArrowCircleUp
 				onClick={scrollToTop}
-				style={{ display: visible ? "inline" : "none" }}
+				style={{ display: visible ? "inline" : "none", color: "black" }}
 			/>
 		</Button>
 	);
