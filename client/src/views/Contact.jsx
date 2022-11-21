@@ -1,6 +1,6 @@
 import React from "react";
-import "../../assets/style.css";
-import FormContact from "../../components/FormContact";
+// import "../../assets/style.css";
+import FormContact from "../components/FormContact";
 
 const Contact = () => {
 	return (

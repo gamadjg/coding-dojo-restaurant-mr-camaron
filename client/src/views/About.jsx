@@ -1,6 +1,6 @@
 import React from "react";
-import "../../assets/style.css";
-import GoogleMapsAPI from "../../components/GoogleMapsAPI";
+// import "../../assets/style.css";
+import GoogleMapsAPI from "../components/GoogleMapsAPI";
 
 const About = () => {
 	return (
