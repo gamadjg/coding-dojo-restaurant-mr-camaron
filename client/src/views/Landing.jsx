@@ -14,7 +14,7 @@ import img9 from "../assets/IMG_0247.jpg";
 import Contact from "./Contact";
 const Landing = () => {
 	return (
-		<div className="flex flex-col items-center">
+		<div className="flex flex-col items-center overflow-hidden w-screen">
 			<img src={logo} alt="mr.camaron logo" className="w-96" />
 			<img src={welcome_logo} alt="welcome logo" className="max-w-xl p-5" />
 			<LandingInfo />

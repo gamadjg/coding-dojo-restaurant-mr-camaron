@@ -11,7 +11,7 @@ import Landing from "./views/Landing";
 
 function App() {
 	return (
-		<div className="grid bg-[#A6D2E4]">
+		<div className="grid bg-[#A6D2E4] overflow-hidden">
 			<Fragment>
 				<Nav />
 				<Routes>

@@ -6,7 +6,7 @@ import menu from "../assets/menu.pdf";
 
 const Footer = () => {
 	return (
-		<div className="flex items-center justify-center bg-slate-600 gap-10 p-5 text-gray-100 text-sm font-bold">
+		<div className="flex items-center justify-center bg-slate-600 gap-10 p-5 text-gray-100 text-sm font-bold overflow-auto">
 			{/* <div className="flex flex-col justify-between gap-2">
 				<a download="menu.pdf" href={menu} className="hover:underline">
 					Download the menu
