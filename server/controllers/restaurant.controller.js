@@ -5,7 +5,7 @@ module.exports.menu = (req, res) => {
 	RestaurantFood.find()
 		.then((menuItems) => res.json(menuItems))
 		.catch((err) =>
-			res.json({ message: "ERROR, GET: Cannot get all players.", error: err })
+			res.json({ message: "ERROR, GET: Cannot get all food.", error: err })
 		);
 };
 
