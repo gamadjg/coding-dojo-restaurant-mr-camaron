@@ -88,74 +88,124 @@ const Menu = () => {
 	}, []);
 
 	return (
-		<div id="menu_main" className="container">
+		<div id="menu_main" className="w-full">
 			{!loaded ? (
 				<div>loading...</div>
 			) : (
-				<>
-					<div className="food_category_container">
+				<div>
+					<div className="p-5 flex flex-col items-center">
 						<img
 							src={animo_logo}
 							alt="Para levantar el animo"
-							className="menu_logo"
+							className="text-center m-auto h-[140px]"
 						/>
-						{animoList.map((food, i) => {
-							return <p key={i}>{food.name}</p>;
-						})}
+						<div className="flex flex-wrap w-1/2 gap-10 justify-center py-5">
+							{animoList.map((food, i) => {
+								return (
+									<p key={i} className="font-bold">
+										{food.name}
+									</p>
+								);
+							})}
+						</div>
 					</div>
-					<div>
+					<div className="p-5 flex flex-col items-center">
 						<img
 							src={botana_logo}
 							alt="Botanas de Mariscos"
-							className="menu_logo"
+							className="text-center m-auto h-24"
 						/>
-						{botanaList.map((food, i) => {
-							return <p key={i}>{food.name}</p>;
-						})}
+						<div className="flex flex-wrap w-1/2 gap-10 justify-center py-5">
+							{botanaList.map((food, i) => {
+								return (
+									<p key={i} className="font-bold">
+										{food.name}
+									</p>
+								);
+							})}
+						</div>
 					</div>
-					<div>
-						<img src={soups_logo} alt="Caldos/Soups" className="menu_logo" />
-						{soupList.map((food, i) => {
-							return <p key={i}>{food.name}</p>;
-						})}
+					<div className="p-5 flex flex-col items-center">
+						<img
+							src={soups_logo}
+							alt="Caldos/Soups"
+							className="text-center m-auto h-24"
+						/>
+						<div className="flex flex-wrap w-1/2 gap-10 justify-center py-5">
+							{soupList.map((food, i) => {
+								return (
+									<p key={i} className="font-bold">
+										{food.name}
+									</p>
+								);
+							})}
+						</div>
 					</div>
-					<div>
-						<img src={specials_logo} alt="Specials" className="menu_logo" />
-						{specialsList.map((food, i) => {
-							return <p key={i}>{food.name}</p>;
-						})}
+					<div className="p-5 flex flex-col items-center">
+						<img
+							src={specials_logo}
+							alt="Specials"
+							className="text-center m-auto h-24"
+						/>
+						<div className="flex flex-wrap w-1/2 gap-10 justify-center py-5">
+							{specialsList.map((food, i) => {
+								return (
+									<p key={i} className="font-bold">
+										{food.name}
+									</p>
+								);
+							})}
+						</div>
 					</div>
-					<div>
+					<div className="p-5 flex flex-col items-center">
 						<img
 							src={plates_mariscos_logo}
 							alt="Platillos de Mariscos"
-							className="menu_logo"
+							className="text-center m-auto h-24"
 						/>
-						{platesMariscosList.map((food, i) => {
-							return <p key={i}>{food.name}</p>;
-						})}
+						<div className="flex flex-wrap w-1/2 gap-10 justify-center py-5">
+							{platesMariscosList.map((food, i) => {
+								return (
+									<p key={i} className="font-bold">
+										{food.name}
+									</p>
+								);
+							})}
+						</div>
 					</div>
-					<div>
+					<div className="p-5 flex flex-col items-center">
 						<img
 							src={plates_mexican_logo}
 							alt="Platillos Mexicanos"
-							className="menu_logo"
+							className="text-center m-auto h-24"
 						/>
-						{platesMexicanosList.map((food, i) => {
-							return <p key={i}>{food.name}</p>;
-						})}
+						<div className="flex flex-wrap w-1/2 gap-10 justify-center py-5">
+							{platesMexicanosList.map((food, i) => {
+								return (
+									<p key={i} className="font-bold">
+										{food.name}
+									</p>
+								);
+							})}
+						</div>
 					</div>
-					<div>
+					<div className="p-5 flex flex-col items-center">
 						<img
 							src={extras_logo}
 							alt="Extras"
-							className="menu_secondary_logo"
+							className="text-center m-auto h-24"
 						/>
-						{sidesList.map((food, i) => {
-							return <p key={i}>{food.name}</p>;
-						})}
+						<div className="flex flex-wrap w-1/2 gap-10 justify-center py-5">
+							{sidesList.map((food, i) => {
+								return (
+									<p key={i} className="font-bold">
+										{food.name}
+									</p>
+								);
+							})}
+						</div>
 					</div>
-				</>
+				</div>
 			)}
 		</div>
 	);

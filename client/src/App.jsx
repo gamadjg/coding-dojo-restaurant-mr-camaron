@@ -21,7 +21,6 @@ function App() {
 					<Route path="/about" element={<About />} />
 				</Routes>
 				{/* <ScrollButton /> */}
-				<Contact />
 				<Footer />
 			</Fragment>
 		</div>
