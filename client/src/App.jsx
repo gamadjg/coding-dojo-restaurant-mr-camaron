@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
 import Menu from "./views/Menu";
-import "./styles.css";
+// import "./styles.css";
 import Nav from "./views/Nav";
 import About from "./views/About";
 import Footer from "./views/Footer";
@@ -11,7 +11,7 @@ import Landing from "./views/Landing";
 
 function App() {
 	return (
-		<div className="grid">
+		<div className="grid bg-[#A6D2E4]">
 			<Fragment>
 				<Nav />
 				<Routes>
@@ -21,6 +21,7 @@ function App() {
 					<Route path="/about" element={<About />} />
 				</Routes>
 				{/* <ScrollButton /> */}
+				<Contact />
 				<Footer />
 			</Fragment>
 		</div>

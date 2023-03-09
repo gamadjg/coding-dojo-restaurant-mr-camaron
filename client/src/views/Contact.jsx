@@ -1,10 +1,12 @@
 import React from "react";
-// import "../../assets/style.css";
 import FormContact from "../components/FormContact";
 
 const Contact = () => {
 	return (
-		<div id="contact_main" className="container">
+		<div className="text-gray-100 text-sm font-bold flex flex-col bg-[#FC7E2D]">
+			<p className="text-center my-2 text-lg">
+				Reserving for a large party or have a question?
+			</p>
 			<FormContact />
 		</div>
 	);

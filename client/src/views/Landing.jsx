@@ -1,34 +1,78 @@
 import React from "react";
-// import Nav from "../general_views/Nav";
-// import LandingHome from "./LandingHome";
-// import Footer from "../general_views/Footer";
-// import "../../assets/style.css";
-// import ScrollButton from "../../components/ScrollButton";
-// import { Content, Heading } from "../../components/Styles";
-// import LandingContainerContact from "./LandingContainerContact";
-// import LandingContainerMenu from "./LandingContainerMenu";
-import LandingInfo from "./LandingInfo";
-import logo from "../assets/edited_logo_4.png";
+// import LandingInfo from "./LandingInfo";
 import welcome_logo from "../assets/bienvenidos.png";
-// import "../../../public/styles.css";
-
-import { Link } from "react-router-dom";
+import img1 from "../assets/IMG_0226_2.jpg";
+import img2 from "../assets/IMG_0234.jpg";
+import img3 from "../assets/IMG_0243.jpg";
+import img4 from "../assets/IMG_0252.jpg";
+import img5 from "../assets/IMG_0261.jpg";
+import img6 from "../assets/IMG_0306.jpg";
+import img7 from "../assets/IMG_0276.jpg";
+import img8 from "../assets/IMG_0288.jpg";
+import img9 from "../assets/IMG_0247.jpg";
 
 const Landing = () => {
 	return (
-		<div>
-			<div className=" flex flex-col content-center items-center">
-				<img src={logo} alt="mr.camaron logo" className="max-w-sm" />
-				<img src={welcome_logo} alt="welcome logo" className="max-w-xs" />
+		<div className="flex flex-col items-center p-5">
+			<img src={welcome_logo} alt="welcome logo" className="max-w-xl p-5" />
+			{/* <LandingInfo /> */}
+			<div className="flex flex-wrap m-auto justify-center gap-5">
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img1} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						<p>test</p>
+					</div>
+					{/* <div className=" bg-gray-300 rounded-r-xl">test</div> */}
+				</div>
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img2} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						test
+					</div>
+				</div>
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img3} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						test
+					</div>
+				</div>
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img4} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						test
+					</div>
+				</div>
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img5} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						test
+					</div>
+				</div>
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img6} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						test
+					</div>
+				</div>
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img7} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						test
+					</div>
+				</div>
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img8} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						test
+					</div>
+				</div>
+				<div className="flex rounded-xl w-96 h-52">
+					<img src={img9} className="rounded-l-xl w-1/2" />
+					<div className="flex justify-center w-1/2 rounded-r-xl bg-gray-300">
+						test
+					</div>
+				</div>
 			</div>
-			<LandingInfo />
-			<div className="content_container">
-				Have a large party or any questions about the cuisine?
-				<Link to="/contact">
-					<button>Contact Us </button>
-				</Link>
-			</div>
-			<div className="content_container"> Subscription form</div>
 		</div>
 	);
 };
