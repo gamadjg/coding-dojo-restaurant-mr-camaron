@@ -1,5 +1,6 @@
 const { RestaurantContact } = require("../models/restaurantContact.model");
 const { RestaurantFood } = require("../models/restaurantFood.model");
+const { sendEmail } = require("../utils/nodemailer");
 
 module.exports.menu = (req, res) => {
 	RestaurantFood.find()
@@ -37,16 +38,15 @@ module.exports.food_create = (req, res) => {
 };
 
 module.exports.contact_create = (req, res) => {
-	const { name, email, phone, message } = req.body;
-	console.log(name, email, phone, message);
+	const { name, email, message } = req.body;
 	RestaurantContact.create({
 		name,
 		email,
-		phone,
 		message,
 	})
 		.then((contact) => {
 			res.json(contact);
+			sendEmail(name, email, message);
 		})
 		.catch((err) => res.status(400).json(err));
 };

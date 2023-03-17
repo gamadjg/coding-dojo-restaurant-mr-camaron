@@ -8,7 +8,7 @@ module.exports = function (app) {
 	// POST FOOD
 	app.post("/api/food/new", RestaurantController.food_create); // g2g
 	// POST
-	app.post("/api/user/contact/new", RestaurantController.contact_create); // g2g
+	app.post("/api/contact", RestaurantController.contact_create); // g2g
 	// PUT ONE
 	// app.put("/api/players/:id/edit", PlayerController.update); // g2g
 	// DELETE ONE

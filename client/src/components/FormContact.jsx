@@ -4,7 +4,6 @@ import axios from "axios";
 const FormContact = () => {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
-	const [phone, setPhone] = useState("");
 	const [message, setMessage] = useState("");
 	const [errors, setErrors] = useState([]);
 
@@ -12,14 +11,13 @@ const FormContact = () => {
 		e.preventDefault();
 		// console.log(name, email, phone, message);
 		axios
-			.post("http://localhost:8000/api/user/contact/new", {
+			.post("http://localhost:8000/api/contact", {
 				name,
 				email,
-				phone,
 				message,
 			})
-			.then((res) => {
-				// subimtted popup
+			.then(() => {
+				alert("Message sent");
 			})
 			.catch((err) => {
 				console.log(err.response.data.errors);
@@ -36,7 +34,7 @@ const FormContact = () => {
 	return (
 		<>
 			<form onSubmit={handleSubmission} className="form m-auto w-96">
-				<div className="my-1">
+				<div className="my-2">
 					<label className="block text-gray-100 text-sm font-bold mb-1">
 						Name
 					</label>
@@ -47,31 +45,18 @@ const FormContact = () => {
 						className="w-full shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 					/>
 				</div>
-				<div className="flex justify-between my-1">
-					<div>
-						<label className="block text-gray-100 text-sm font-bold mb-1">
-							Email
-						</label>
-						<input
-							type="text"
-							onChange={(e) => setEmail(e.target.value)}
-							value={email}
-							className="w-48 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-						/>
-					</div>
-					<div>
-						<label className="block text-gray-100 text-sm font-bold mb-1">
-							Phone
-						</label>
-						<input
-							type="text"
-							onChange={(e) => setPhone(e.target.value)}
-							value={phone}
-							className="w-44 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-						/>
-					</div>
+				<div className="my-2">
+					<label className="block text-gray-100 text-sm font-bold mb-1">
+						Email
+					</label>
+					<input
+						type="text"
+						onChange={(e) => setEmail(e.target.value)}
+						value={email}
+						className="w-full shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+					/>
 				</div>
-				<div className="my-1">
+				<div className="my-2">
 					<label className="block text-gray-100 text-sm font-bold mb-1">
 						Message
 					</label>
@@ -83,7 +68,7 @@ const FormContact = () => {
 						className="w-full h-24 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 					/>
 				</div>
-				<div className="my-1">
+				<div className="my-2">
 					<button
 						type="submit"
 						// className="text-gray-100 text-sm font-bold mb-2 border rounded p-2 mt-2"
