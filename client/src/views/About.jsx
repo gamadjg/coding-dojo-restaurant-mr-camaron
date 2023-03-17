@@ -3,7 +3,7 @@ import GoogleMapsAPI from "../components/GoogleMapsAPI";
 
 const About = () => {
 	return (
-		<div className="flex flex-col items-center overflow-hidden gap-5 w-full">
+		<div className="flex flex-col items-center overflow-hidden gap-5 w-full pb-5">
 			<div className="text-center">
 				<h2 className="text-xl font-bold pt-5">Open Hours</h2>
 				<p className="py-1">Monday - Thursday: 9am-10pm</p>

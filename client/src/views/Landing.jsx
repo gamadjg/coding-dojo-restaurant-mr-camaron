@@ -1,16 +1,7 @@
 import React from "react";
 import LandingInfo from "./LandingInfo";
-import logo from "../assets/edited_logo_4.png";
+import logo from "../assets/square_logo.png";
 import welcome_logo from "../assets/bienvenidos.png";
-import img1 from "../assets/IMG_0226_2.jpg";
-// import img2 from "../assets/IMG_0234.jpg";
-import img3 from "../assets/IMG_0243.jpg";
-import img4 from "../assets/IMG_0252.jpg";
-import img5 from "../assets/IMG_0261.jpg";
-import img6 from "../assets/IMG_0306.jpg";
-import img2 from "../assets/IMG_0276.jpg";
-import img8 from "../assets/IMG_0288.jpg";
-import img9 from "../assets/IMG_0247.jpg";
 import Contact from "./Contact";
 const Landing = () => {
 	return (
