@@ -1,13 +1,21 @@
 require("dotenv").config();
-require("./config/mongoose.config");
-const express = require("express");
 const cors = require("cors");
+const express = require("express");
+const mongoose = require("mongoose");
 const app = express();
-const port = 8000;
-
-app.use(cors(), express.json(), express.urlencoded({ extended: true }));
-
+const port = process.env.PORT;
+const dburi = process.env.DBURI;
 const app_routes = require("./routes/restaurant.routes");
+
+app.use(cors());
+app.use(express.json(), express.urlencoded({ extended: true }));
 app_routes(app);
 
-app.listen(port, () => console.log(`Listening on port: ${port}`));
+mongoose
+	.connect(dburi)
+	.then((result) => {
+		app.listen(port, () => console.log(`Listening on port: ${port}`));
+	})
+	.catch((err) => {
+		console.log(err);
+	});
