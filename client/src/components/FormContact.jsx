@@ -9,7 +9,6 @@ const FormContact = () => {
 
 	const handleSubmission = (e) => {
 		e.preventDefault();
-		// console.log(name, email, phone, message);
 		axios
 			.post("http://localhost:8000/api/contact", {
 				name,

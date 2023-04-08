@@ -50,27 +50,3 @@ module.exports.contact_create = (req, res) => {
 		})
 		.catch((err) => res.status(400).json(err));
 };
-
-// module.exports.getOne = (req, res) => {
-// 	Restaurant.findOne({ _id: req.params.id })
-// 		.then((player) => res.json({ player: player }))
-// 		.catch((err) =>
-// 			res.json({ message: "ERROR, GET: Cannot get player.", error: err })
-// 		);
-// };
-
-// module.exports.update = (req, res) => {
-// 	Restaurant.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
-// 		.then((updatedRestaurant) => res.json({ player: updatedRestaurant }))
-// 		.catch((err) =>
-// 			res.json({ message: "ERROR, PUT: Cannot update player.", error: err })
-// 		);
-// };
-
-// module.exports.delete = (req, res) => {
-// 	Restaurant.deleteOne({ _id: req.params.id })
-// 		.then((result) => res.json({ result: result }))
-// 		.catch((err) =>
-// 			res.json({ message: "ERROR, DELETE: Cannot delete player.", error: err })
-// 		);
-// };

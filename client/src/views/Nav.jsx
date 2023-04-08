@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import restaurant_title from "../assets/restaurant_name.png";
-import "../styles.css";
 
 const Nav = () => {
 	return (
