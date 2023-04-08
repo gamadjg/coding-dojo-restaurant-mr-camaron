@@ -4,6 +4,7 @@ import { StaticGoogleMap, Marker, Path } from "react-static-google-map";
 // import.meta.env.VITE_GMAPS_API_KEY;
 
 const GoogleMapsAPI = () => {
+	console.log(import.meta.env.VITE_GMAPS_API_KEY);
 	const position = {
 		lat: 37.61102898182769,
 		lng: -120.99279435390255,
