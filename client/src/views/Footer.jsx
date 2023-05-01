@@ -1,6 +1,6 @@
 import React from "react";
-import ig_logo from "../assets/Instagram_Glyph_Black.png";
-import fb_logo3 from "../assets/fb_logo3.png";
+import ig_logo from "../assets/images/icons/Instagram_Glyph_Black.png";
+import fb_logo3 from "../assets/images/icons/fb_logo3.png";
 import menu from "../assets/menu.pdf";
 // import Contact from "./Contact";
 
