@@ -21,6 +21,9 @@ module.exports.contactCreate = (req, res) => {
 module.exports.getFood = (req, res) => {
 	RestaurantFood.find()
 		.then((food) => {
+			food = food.map((item) => {
+				return item.cdnUrl;
+			});
 			res.json(food);
 		})
 		.catch((err) => res.status(400).json(err));
