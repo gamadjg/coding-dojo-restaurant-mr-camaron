@@ -1,25 +1,43 @@
 # Restaurant Mr.Camaron
 
-<!-- ![image](src/assets/images/project-pics/portfolio.png) -->
-
 ![gif of restaurant site](mr.camaron-gif.gif)
 
-## Live Preview
+<p align="center"><a href="" target="_blank">See it live!</a></p>
 
--Pending-
+## Table of Contents
 
----
+- [Restaurant Mr.Camaron](#restaurant-mrcamaron)
+  - [Table of Contents](#table-of-contents)
+  - [Project Information](#project-information)
+  - [Languages, Frameworks, and Technology](#languages-frameworks-and-technology)
+  - [Features](#features)
 
-## Overview
+## Project Information
 
 - Mexican seafood restaurant site, built using MERN & Tailwindcss
 - Domain joined, and hosted on Google Cloud.
 
-### API's
+## Languages, Frameworks, and Technology
 
-- Nodemailer: [Link](https://nodemailer.com/about/)
-  - User message submissions are emailed to the restaurant social account.
-- Swiper: [Link](https://swiperjs.com/)
-  - Creates an infinitely looping carousel with the provided food images.
-- Static google maps: [Link](https://developers.google.com/maps/documentation/maps-static/overview)
-  - Embeds a static google maps image derived from the restaurants coordinates.
+- [JavaScript](https://devdocs.io/javascript/)
+- [React](https://beta.reactjs.org/)
+- [CSS3](https://devdocs.io/css/)
+- [HTML5](https://devdocs.io/html/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [NodeJS](https://nodejs.org/en/docs/)
+- [NPM](https://docs.npmjs.com/)
+- [Git](https://devdocs.io/git/)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Cross-env](https://www.npmjs.com/package/cross-env)
+- [Nodemailer](https://nodemailer.com/about/)
+- [SwiperJs](https://swiperjs.com/)
+- [Static google maps](https://developers.google.com/maps/documentation/maps-static/overview)
+
+## Features
+
+- User message submissions are emailed to the restaurant social account.
+- Food images pulled from Google Cloud CDN
+- Swiper api creates an infinitely looping carousel with the provided food images.
+- Static google maps api generates an image derived from the restaurants coordinates.
+- Hosted on Google Cloud App Engine
