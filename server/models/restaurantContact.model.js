@@ -33,7 +33,18 @@ const RestaurantContact = new mongoose.Schema({
 	},
 });
 
+const RestaurantFood = new mongoose.Schema({
+	cdnUrl: {
+		type: String,
+	},
+});
+
 module.exports.RestaurantContact = mongoose.model(
 	"Restaurant_contact",
 	RestaurantContact
+);
+
+module.exports.RestaurantFood = mongoose.model(
+	"Restaurant_food",
+	RestaurantFood
 );

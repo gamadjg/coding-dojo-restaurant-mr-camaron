@@ -33,6 +33,8 @@
 - [Nodemailer](https://nodemailer.com/about/)
 - [SwiperJs](https://swiperjs.com/)
 - [Static google maps](https://developers.google.com/maps/documentation/maps-static/overview)
+- [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+- [Google Cloud](https://cloud.google.com/)
 
 ## Features
 

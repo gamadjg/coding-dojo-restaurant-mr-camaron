@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/square_logo.png";
+import logo from "../assets/images/icons/square_logo.png";
 import welcome_logo from "../assets/images/banners/bienvenidos.png";
 import Carousel from "../components/Carousel";
 import images from "../helpers/food-image-urls.js";
