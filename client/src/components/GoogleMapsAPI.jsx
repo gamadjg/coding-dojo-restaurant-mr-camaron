@@ -8,7 +8,7 @@ const GoogleMapsAPI = () => {
 	};
 	return (
 		<StaticGoogleMap
-			className="overflow-hidden"
+			className=""
 			size="1200x300"
 			center="Mr.Camaron, Modesto, Ca"
 			zoom={13}

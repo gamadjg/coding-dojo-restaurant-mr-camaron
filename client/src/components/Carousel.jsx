@@ -28,7 +28,7 @@ const Carousel = (props) => {
 		<div className="w-full mb-5 px-10">
 			<Swiper
 				autoplay={{
-					delay: 4000,
+					delay: 3000,
 					disableOnInteraction: false,
 				}}
 				spaceBetween={10}

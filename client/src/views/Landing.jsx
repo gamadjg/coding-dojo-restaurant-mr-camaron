@@ -29,7 +29,11 @@ const Landing = () => {
 			) : (
 				<div className="flex flex-col items-center overflow-hidden w-screen">
 					<img src={logo} alt="mr.camaron logo" className="w-96" />
-					<img src={welcome_logo} alt="welcome logo" className="max-w-xl p-5" />
+					<img
+						src={welcome_logo}
+						alt="welcome logo"
+						className="md:max-w-xl p-5"
+					/>
 					<Carousel images={imageList} />
 				</div>
 			)}
