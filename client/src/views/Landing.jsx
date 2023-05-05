@@ -9,7 +9,8 @@ const Landing = () => {
 	const [loaded, setLoaded] = useState(false);
 	useEffect(() => {
 		axios
-			.get("http://localhost:8000/api/foodUrls")
+			// .get("http://localhost:8000/api/foodUrls")
+			.get("https://api-dot-mr-camaron.wl.r.appspot.com/api/foodUrls")
 			.then((res) => {
 				setImageList(res.data);
 				setLoaded(true);

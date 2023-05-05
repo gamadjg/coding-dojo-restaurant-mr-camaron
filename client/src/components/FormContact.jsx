@@ -10,7 +10,8 @@ const FormContact = () => {
 	const handleSubmission = (e) => {
 		e.preventDefault();
 		axios
-			.post("http://localhost:8000/api/contact", {
+			// .post("http://localhost:8000/api/contact", {
+			.post("https://api-dot-mr-camaron.wl.r.appspot.com/api/contact", {
 				name,
 				email,
 				message,
