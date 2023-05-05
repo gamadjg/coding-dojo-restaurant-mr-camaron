@@ -58,4 +58,8 @@ psd
 thumb
 sketch
 
+# gcloud files
+*.yaml
+.gcloudignore
+
 # End of https://www.toptal.com/developers/gitignore/api/react
