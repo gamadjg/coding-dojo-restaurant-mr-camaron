@@ -17,26 +17,27 @@ const FormContact = () => {
 				message,
 			})
 			.then(() => {
+				setErrors([]);
 				alert("Message sent");
 			})
 			.catch((err) => {
-				console.log(err.response.data.errors);
-				const errors = [];
-				for (const key of Object.keys(err.response.data.errors)) {
-					console.log(key);
-					errors.push(err.response.data.errors[key].message);
-					// errors.push({ key: err.response.data.errors[key].message });
-				}
-				setErrors(errors);
+				setErrors(err.response.data.errors);
 			});
 	};
 
 	return (
 		<>
-			<form onSubmit={handleSubmission} className="form m-auto w-96">
+			<form onSubmit={handleSubmission} className="form m-auto md:w-96">
 				<div className="my-2">
 					<label className="block text-gray-100 text-sm font-bold mb-1">
 						Name
+						{errors["name"] ? (
+							<p className="inline-block pl-1 text-red-800">
+								{errors["name"].message}
+							</p>
+						) : (
+							<></>
+						)}
 					</label>
 					<input
 						type="text"
@@ -46,8 +47,15 @@ const FormContact = () => {
 					/>
 				</div>
 				<div className="my-2">
-					<label className="block text-gray-100 text-sm font-bold mb-1">
+					<label className="block text-gray-100 text-sm font-bold mb-1 ">
 						Email
+						{errors["email"] ? (
+							<p className="inline-block pl-1 text-red-800">
+								{errors["email"].message}
+							</p>
+						) : (
+							<></>
+						)}
 					</label>
 					<input
 						type="text"
@@ -59,6 +67,13 @@ const FormContact = () => {
 				<div className="my-2">
 					<label className="block text-gray-100 text-sm font-bold mb-1">
 						Message
+						{errors["message"] ? (
+							<p className="inline-block pl-1 text-red-800">
+								{errors["message"].message}
+							</p>
+						) : (
+							<></>
+						)}
 					</label>
 					<textarea
 						type="text"
@@ -78,13 +93,13 @@ const FormContact = () => {
 					</button>
 				</div>
 			</form>
-			{errors.map((error, i) => {
+			{/* {errors.map((error, i) => {
 				return (
-					<div className="w-96 m-auto">
+					<div className="md:w-96 m-auto">
 						<p key={i}>{error}</p>
 					</div>
 				);
-			})}
+			})} */}
 		</>
 	);
 };
