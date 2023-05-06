@@ -20,7 +20,8 @@
 
 Responsive Mexican seafood restaurant site
 
-- Built using the MERN stack, Tailwindcss, and the MVC architectural design pattern.
+- Built using the MERN stack and the MVC architectural design pattern.
+- Tailwindcss configured containers resize site, allowing for both web and mobile use.
 - DNS configured and domain joined via Google Domains
 - Front-end and back-end hosted on Google Cloud App Engine.
 - Images hosted on Google Cloud CDN, and pulled via api request.
