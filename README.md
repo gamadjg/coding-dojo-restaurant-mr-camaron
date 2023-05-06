@@ -2,7 +2,7 @@
 
 ![gif of restaurant site](mr.camaron-gif.gif)
 
-<p align="center"><a href="" target="_blank">See it live!</a></p>
+<p align="center"><a href="https://mrcamaron.restaurant/" target="_blank">See it live!</a></p>
 
 ## Table of Contents
 
@@ -14,8 +14,10 @@
 
 ## Project Information
 
-- Mexican seafood restaurant site, built using MERN & Tailwindcss
-- Domain joined, and hosted on Google Cloud.
+- Mexican seafood restaurant site, built using the MERN stack & Tailwindcss.
+- DNS configured and domain joined via Google Domains
+- Front-end and back-end hosted on Google Cloud App Engine.
+- Images hosted on Google Cloud CDN, and pulled via api request.
 
 ## Languages, Frameworks, and Technology
 
@@ -32,14 +34,14 @@
 - [Cross-env](https://www.npmjs.com/package/cross-env)
 - [Nodemailer](https://nodemailer.com/about/)
 - [SwiperJs](https://swiperjs.com/)
+- [Font Awesome](https://fontawesome.com/)
 - [Static google maps](https://developers.google.com/maps/documentation/maps-static/overview)
 - [MongoDB Atlas](https://www.mongodb.com/atlas/database)
-- [Google Cloud](https://cloud.google.com/)
+- [Google Cloud, App Engine](https://cloud.google.com/appengine)
+- [Google Domains](https://domains.google/)
 
 ## Features
 
 - User message submissions are emailed to the restaurant social account.
-- Food images pulled from Google Cloud CDN
 - Swiper api creates an infinitely looping carousel with the provided food images.
-- Static google maps api generates an image derived from the restaurants coordinates.
-- Hosted on Google Cloud App Engine
+- Static Google Maps api generates an image derived from the restaurants coordinates.
