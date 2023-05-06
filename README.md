@@ -18,7 +18,7 @@
 
 ## Project Information
 
-Mexican seafood restaurant site
+Responsive Mexican seafood restaurant site
 
 - Built using the MERN stack, Tailwindcss, and the MVC architectural design pattern.
 - DNS configured and domain joined via Google Domains
