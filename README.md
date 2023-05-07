@@ -28,14 +28,14 @@ Responsive Mexican seafood restaurant site
 
 ## Features
 
-:white_check_mark: User message submissions are emailed to the restaurant social account.
-:white_check_mark: Swiper api creates an infinitely looping carousel with the provided food images.
-:white_check_mark: Static Google Maps api generates an image derived from the restaurants coordinates.
+- :white_check_mark: User message submissions are emailed to the restaurant social account.
+- :white_check_mark: Swiper api creates an infinitely looping carousel with the provided food images.
+- :white_check_mark: Static Google Maps api generates an image derived from the restaurants coordinates.
 
 ## Upcoming Features
 
-:white_square_button: Prompt and Toggle to see the site in English or Spanish.
-:white_square_button: QR code that directs to the Menu.
+- :white_square_button: Prompt and Toggle to see the site in English or Spanish.
+- :white_square_button: QR code that directs to the Menu.
 
 ## Packages, Frameworks, and Technology
 
